@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200823143152_AlterAspNetUserRoles.cs" />
+    <Compile Remove="Migrations\20200823143152_AlterAspNetUserRoles.Designer.cs" />
+    <Compile Remove="Migrations\20211016091555_SeedingSubjectMasterData.cs" />
+    <Compile Remove="Migrations\20211016091555_SeedingSubjectMasterData.Designer.cs" />
+    <Compile Remove="Migrations\20211016125110_Added_SP_UpdateStudent.cs" />
+    <Compile Remove="Migrations\20211016125110_Added_SP_UpdateStudent.Designer.cs" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

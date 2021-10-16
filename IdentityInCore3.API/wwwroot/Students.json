@@ -1,0 +1,104 @@
+{
+  "Students": [
+    {
+      "Id": 1,
+      "Name": "Aniket Panchal",
+      "Gender": 0,
+      "PhoneNumber": 919898123234,
+      "Address": "Ahmedabad, Gujarat",
+      "PostalCode": 382425,
+      "Subjects": [
+        {
+          "subjectMasterId": 1,
+          "Marks": 76
+        },
+        {
+          "subjectMasterId": 2,
+          "Marks": 60
+        },
+        {
+          "subjectMasterId": 3,
+          "Marks": 80
+        },
+        {
+          "subjectMasterId": 4,
+          "Marks": 90
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "Sejal Patel",
+      "Gender": 1,
+      "PhoneNumber": 919023653489,
+      "Address": "Surat, Gujarat",
+      "PostalCode": 382012,
+      "Subjects": [
+        {
+          "subjectMasterId": 1,
+          "Marks": 80
+        },
+        {
+          "subjectMasterId": 2,
+          "Marks": 73
+        },
+        {
+          "subjectMasterId": 4,
+          "Marks": 68
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "Amit Patel",
+      "Gender": 0,
+      "PhoneNumber": 919823453234,
+      "Address": "Vadodara, Gujarat",
+      "PostalCode": 382212,
+      "Subjects": [
+        {
+          "subjectMasterId": 1,
+          "Marks": 95
+        },
+        {
+          "subjectMasterId": 2,
+          "Marks": 84
+        },
+        {
+          "subjectMasterId": 3,
+          "Marks": 56
+        },
+        {
+          "subjectMasterId": 4,
+          "Marks": 62
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "Nidhi Limbachiya",
+      "Gender": 1,
+      "PhoneNumber": 919723879999,
+      "Address": "",
+      "PostalCode": "",
+      "Subjects": [
+        {
+          "subjectMasterId": 1,
+          "Marks": 85
+        },
+        {
+          "subjectMasterId": 2,
+          "Marks": 73
+        },
+        {
+          "subjectMasterId": 3,
+          "Marks": 60
+        },
+        {
+          "subjectMasterId": 4,
+          "Marks": 92
+        }
+      ]
+    }
+  ]
+}

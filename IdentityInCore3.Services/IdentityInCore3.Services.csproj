@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.7" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityInCore3\IdentityInCore3.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IdentityInCore3.Contracts">
+      <HintPath>..\IdentityInCore3.Contracts\bin\Debug\netcoreapp3.1\IdentityInCore3.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="IdentityInCore3.Repository">
+      <HintPath>..\IdentityInCore3.Repository\bin\Debug\netcoreapp3.1\IdentityInCore3.Repository.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
